@@ -21,7 +21,7 @@ const Login = () => {
   }
   return(
     <View style={styles.container}>
-        <Text style={{fontWeight:'bold',fontSize:26}}>
+        <Text style={{fontWeight:'bold',fontSize:26,color:'#008b8b'}}>
 LogIn
         </Text>
         <View style={{marginTop:40}}>

@@ -8,6 +8,7 @@ import Login from "./src/Login";
 import Registration from "./src/Registration";
 import Header from "./components/Header";
 import Dashboard from "./src/Dashboard";
+import splace from "./src/Splace";
 const Stack = createStackNavigator();
  function App() {
   const [initalizing, setInitalizing] = useState(true);
@@ -27,6 +28,14 @@ const Stack = createStackNavigator();
   if (!user) {
     return (
       <Stack.Navigator>
+
+
+
+        <Stack.Screen
+          name="splace"
+          component={splace}
+          options={{ headerShown: false }}
+        />
         <Stack.Screen name="Login" component={Login}
         options={{
           headerTitle:()=><Header name="NXG SOLUTIONS" />,

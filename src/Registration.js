@@ -60,7 +60,7 @@ const Registration = () => {
   
     <View style={styles.container}>
          
-        <Text style={{fontWeight:'bold',fontSize:23}}>
+        <Text style={{fontWeight:'bold',fontSize:23,color:'#008b8b'}}>
             Registration Here..!!
         </Text>
         <ScrollView>

@@ -37,7 +37,9 @@ const Dashboard = () => {
           alignSelf: "center",
           marginTop: 20,
           borderStyle:'solid',
-          borderColor:'red'
+          borderColor:'red',
+          fontSize:'24px',
+          backgroundColor:'#ffdba6'
           
         }}
       >
@@ -83,7 +85,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 50,
-    marginLeft: "150px",
+    marginLeft: "120px",
   },
   image: {
     justifyContent: "center",
